@@ -1,0 +1,15 @@
+.home-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.home-container h1{
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 2rem;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 4rem;
+}
