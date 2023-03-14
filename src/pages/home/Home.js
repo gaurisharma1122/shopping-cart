@@ -15,8 +15,8 @@ const Home = () => {
             products.map((item)=>{
               return (
                 <Product key={item.id}
-                  name={item.name}
-                  image={item.image}
+                  title={item.title}
+                  image={item.images[0]}
                   price={item.price}
                   product={item}/>
               )
